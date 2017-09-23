@@ -1,0 +1,68 @@
+root { 
+    display: block;
+}
+
+
+body {
+    background: #000;
+    height: 5000px;
+    width: 6000px;
+    max-height: 5000px;
+    max-width: 6000px;
+
+
+}
+
+#basura{
+    /*outline: solid red 1px;*/
+}
+
+.libre{
+    position: absolute;
+}
+
+canvas {
+    position: absolute;
+    /*outline: solid red 1px;*/
+    background: #000;
+    z-index: -1;
+
+}
+
+
+
+#bsas{
+
+    transform: rotate(100deg);
+    -ms-transform: rotate(100deg);  
+    -webkit-transform: rotate(100deg); 
+    top: 1700px;
+
+}
+
+#lago{
+
+    transform: rotate(5deg);
+    -ms-transform: rotate(5deg);  
+    -webkit-transform: rotate(5deg); 
+    top: 2800px;
+    left: -20px;
+}
+
+
+#boleto{
+    top: 2300px;
+    left: 2300px;
+    transform: rotate(-108deg);
+    -ms-transform: rotate(-108deg);  
+    -webkit-transform: rotate(-108deg)
+}
+
+
+#billete{
+    top: 4200px;
+    left: 800px;
+    transform: rotate(85deg);
+    -ms-transform: rotate(85deg);  
+    -webkit-transform: rotate(85deg); 
+}
